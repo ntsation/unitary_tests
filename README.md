@@ -1,29 +1,26 @@
-# Projeto de Testes Unitários em Python
+# Unit Testing Project in Python
 
-Este é um projeto básico para demonstrar o uso de testes unitários em Python usando o módulo `unittest`. O código implementa uma função simples para calcular a média de uma lista de números e inclui testes para verificar se a função está funcionando corretamente.
+This is a basic project to demonstrate the use of unit testing in Python using the `unittest` module. The code implements a simple function to calculate the average of a list of numbers and includes tests to verify that the function is working correctly.
 
-## Estrutura do Projeto
+## Project Structure
 
-projeto_teste_unitario/
+unit_test_project/
 ├── main.py
 └── tests/
 ├── test_calculadora.py
 
-- **main.py:** Contém a implementação da função `calcular_media`.
-- **tests/test_calculadora.py:** Contém os testes unitários para a função `calcular_media`.
+- **main.py:** Contains the implementation of the `calcular_media` function.
+- **tests/test_calculadora.py:** Contains the unit tests for the `calcular_media` function.
 
-## Executando os Testes
+## Running the Tests
 
-Certifique-se de estar no diretório raiz do projeto e execute o seguinte comando no terminal:
+Make sure you are in the project root directory and run the following command in the terminal:
 
 ```
 python -m unittest tests.test_calculadora
 ```
 
-Isso executará os testes unitários e fornecerá feedback sobre se a função está funcionando conforme o esperado.
+This will run the unit tests and provide feedback on whether the function is working as expected.
 
-## Como Contribuir
-Se você deseja contribuir para este projeto, sinta-se à vontade para criar issues, enviar pull requests ou fornecer feedback. Todas as contribuições são bem-vindas!
-
-
-
+## How to Contribute
+If you want to contribute to this project, feel free to create issues, submit pull requests, or provide feedback. All contributions are welcome!
