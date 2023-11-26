@@ -3,12 +3,12 @@
 This is a basic project to demonstrate the use of unit testing in Python using the `unittest` module. The code implements a simple function to calculate the average of a list of numbers and includes tests to verify that the function is working correctly.
 
 ## Project Structure
-
+```
 unit_test_project/
 ├── main.py
 └── tests/
 ├── test_calculadora.py
-
+```
 - **main.py:** Contains the implementation of the `calcular_media` function.
 - **tests/test_calculadora.py:** Contains the unit tests for the `calcular_media` function.
 
