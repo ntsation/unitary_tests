@@ -1,10 +1,18 @@
-def calcular_media(lista)
-   if len(lista) == 0
-      raise ValueError("A lista não pode ser vazia")
-   total = sum(lista)
-   return total / len(lista)
+def calculate_average(sequence):
+    if not sequence:
+        raise ValueError("The sequence cannot be empty")
+
+    try:
+        total = sum(sequence)
+        average = total / len(sequence)
+        return average
+    except TypeError as e:
+        raise TypeError("The sequence must contain only numbers") from and
 
 if __name__ == "__main__":
-   numeros = [10, 20, 30, 40, 50]
-   media = calcular_media(lista)
-   print(f"A média é {media}")
+    try:
+        numbers = [10, 20, 30, 40, 50]
+        average = calculate_average(numbers)
+        print(f"The average is {average}")
+    except (ValueError, TypeError) as e:
+        print(f"Error: {e}")
