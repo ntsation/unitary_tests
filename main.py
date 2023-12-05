@@ -1,3 +1,7 @@
+import unittest
+from main import calculate_average
+
+
 def calculate_average(sequence):
     if not sequence:
         raise ValueError("The sequence cannot be empty")
