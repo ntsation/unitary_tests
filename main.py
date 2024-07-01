@@ -1,17 +1,5 @@
-import unittest
 from main import calculate_average
 
-
-def calculate_average(sequence):
-    if not sequence:
-        raise ValueError("The sequence cannot be empty")
-
-    try:
-        total = sum(sequence)
-        average = total / len(sequence)
-        return average
-    except TypeError as e:
-        raise TypeError("The sequence must contain only numbers") from and
 
 if __name__ == "__main__":
     try:
